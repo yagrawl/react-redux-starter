@@ -26,6 +26,6 @@ Visit [here](https://developers.google.com/identity/sign-in/web/sign-in) and cli
 
 You'll be provided a **Client ID**. Copy this ID and replace `GOOGLE_CLIENT_ID` within this project with your own **Client ID**.
 
-[here](https://github.com/yagrawl/react-redux-starter/blob/master/src/index.js#L2), [here](https://github.com/yagrawl/react-redux-starter/blob/master/src/index.js#L2) and [here](https://github.com/yagrawl/react-redux-starter/blob/master/src/index.js#L2).
+[here](https://github.com/yagrawl/react-redux-starter/blob/master/src/components/elements/login.js#L55), [here](https://github.com/yagrawl/react-redux-starter/blob/master/src/components/elements/login.js#L74) and [here](https://github.com/yagrawl/react-redux-starter/blob/master/src/components/helpers/signin.js#L39).
 
 The app should be up and running at `http://localhost:3000`.
