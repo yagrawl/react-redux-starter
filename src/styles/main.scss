@@ -1,14 +1,36 @@
 @import 'base/variable';
 @import 'base/font';
 
+@import 'components/navbar';
+@import 'components/text';
+@import 'components/element';
+@import 'components/layout';
+
+@import 'theme/light';
+@import 'theme/dark';
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden !important;
 }
 
-p {
-  font-size: $font-size;
-  font-family: $font-family;
-  font-weight: $font-weight;
+a { text-decoration: none !important; }
+.no-overflow { overflow-x: hidden !important; }
+
+.link { text-decoration: none; }
+.link:hover {
+  border-bottom: 1px solid #B45C66;
+  padding-bottom: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  background: transparent;
+}
+
+pre,
+code {
+  border-style: none;
+  background-color: #393B43 !important;
 }

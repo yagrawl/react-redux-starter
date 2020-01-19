@@ -1,0 +1,14 @@
+body {
+  background-color: $background-color-light;
+  color: $text-color-light;
+
+  .login-button {
+    color: #FFFFFF;
+    background-color: $app-base-color;
+  }
+
+  .theme-switch {
+    background-color: $background-color-dark;
+    color: $text-color-dark;
+  }
+}

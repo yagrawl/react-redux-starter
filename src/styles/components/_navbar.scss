@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+}
+
+.logo-div {
+  display: inline-block;
+  float: left;
+}
+
+.logo-text {
+  display: inline;
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 200;
+  color: $app-base-color;
+}
+
+.login-div {
+  display: inline-block;
+  float: right;
+}
+
+.avatar-img {
+  display: inline-block;
+  max-width: 50px;
+  border-radius: 25px;
+}
+
+.avatar-dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 100px;
+  background-color: $app-base-color;
+}
+
+.avatar-dropdown-content li {
+  padding: 12px 16px;
+  display: block;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 200;
+  color: $app-complimentary-color;
+  text-decoration: none;
+}
+
+.avatar:hover .avatar-dropdown-content {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}

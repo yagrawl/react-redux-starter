@@ -1,0 +1,20 @@
+.theme-switch,
+.login-button {
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 16px;
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.login-button:hover {
+  background-color: $app-complimentary-color;
+}
