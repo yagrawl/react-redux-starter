@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { BrowserRouter as Router,
          Switch,
          Route } from 'react-router-dom';
@@ -7,7 +7,7 @@ import Home from './pages/home';
 import Auth from './pages/auth';
 import Profile from './pages/profile';
 
-class Routes extends Component {
+class Routes extends PureComponent {
   render() {
     return (
       <Router>
