@@ -7,18 +7,14 @@ To start,
 
 clone the repository:
 
-```bash
-git clone https://github.com/yagrawl/react-redux-starter.git
-cd react-redux-starter
-```
+    git clone https://github.com/yagrawl/react-redux-starter.git
+    cd react-redux-starter
 
 Install all the required dependencies:
 
-```bash
-npm install
-# or
-yarn add
-```
+    npm install
+    # or
+    yarn add
 
 Obtain your client ID for Google Login.
 
@@ -34,4 +30,4 @@ The app should be up and running at `http://localhost:3000`.
 
 Hopefully, this is what you should see :
 
-![demo gif]('./src/assets/images/demo.gif')
+![demo](demo.gif)
